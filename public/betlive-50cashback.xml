@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VAST [
+        <!ATTLIST Ad    id    ID     #IMPLIED>
+        <!ELEMENT MediaFiles (#PCDATA)>
+        <!ELEMENT MediaFile (#PCDATA)>
+        <!ELEMENT URL (#PCDATA)>
+        ]>
+<VAST version="2.0" >
+    <Ad id="betlive-50cashback">
+        <InLine>
+            <AdSystem>2.0</AdSystem>
+            <AdTitle>Betlive 50% Cashback</AdTitle>
+            <Impression id="50cashback">
+                <![CDATA[http://gdege.hit.gemius.pl/hitredir/id=zIs1jzQUOcddwV11zv7wF8QKjwi_JdssHCni9eGrf1b.x7/fastid=dczbymachoquhvhsybprxwrwtzoa/stparam=omfpiokfye/nc=0/gdpr=0/gdpr_consent=/url=]]>
+            </Impression>
+            <Creatives>
+                <Creative sequence="1" id="2" >
+                    <Linear skipoffset="00:00:06">
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://gdege.hit.gemius.pl/lshitredir/id=zIs1jzQUOcddwV11zv7wF8QKjwi_JdssHCni9eGrf1b.x7/fastid=gdjbkrfaionwemeohrvieelprzkl/stparam=yndmpioosu/nc=0/gdpr=0/gdpr_consent=/url=https://promotion.betlive.com/public/ka/50SlotCashback/?v=3?utm_source=Goal.ge&utm_medium=preroll&utm_campaign=50slotcashback]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <Duration>00:01:00</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+                                <![CDATA[https://storage.goal.ge/videos/videogallery/29/cAFeT2pcnaai0jj9PmdQlZF2V3ujz5oZzzd4zmR5.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

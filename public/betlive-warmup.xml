@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VAST [
+        <!ATTLIST Ad    id    ID     #IMPLIED>
+        <!ELEMENT MediaFiles (#PCDATA)>
+        <!ELEMENT MediaFile (#PCDATA)>
+        <!ELEMENT URL (#PCDATA)>
+        ]>
+<VAST version="2.0" >
+    <Ad id="betlive-warmup">
+        <InLine>
+            <AdSystem>2.0</AdSystem>
+            <AdTitle>Betlive Warmup</AdTitle>
+            <Impression id="warmup">
+                <![CDATA[http://gdege.hit.gemius.pl/hitredir/id=11.rqStM5F7GFzrAoic0cqP8HQFGsHr6hrOXhiMCrkf.C7/fastid=nrwsazyipybkxsewtjbgdmrrhxnu/stparam=zferfqpoqp/nc=0/gdpr=0/gdpr_consent=/url=]]>
+            </Impression>
+            <Creatives>
+                <Creative sequence="1" id="2" >
+                    <Linear skipoffset="00:00:06">
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://gdege.hit.gemius.pl/lshitredir/id=11.rqStM5F7GFzrAoic0cqP8HQFGsHr6hrOXhiMCrkf.C7/fastid=bjfnrlulcvrneogvuzxbwulkfxnh/stparam=thcomkdiqj/nc=0/gdpr=0/gdpr_consent=/url=https://promotion.betlive.com/public/ka/euro2020topgoalscorerandwinner/?utm_source=Goal.ge.ge&utm_medium=preroll&utm_campaign=euro2020-10%freebet]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <Duration>00:01:00</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+                                <![CDATA[https://storage.goal.ge/videos/videogallery/619/8fL0XM7DLsSReqw4sIYwIbB1eKMHq1yi3dYRAUgi.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VAST [
+        <!ATTLIST Ad    id    ID     #IMPLIED>
+        <!ELEMENT MediaFiles (#PCDATA)>
+        <!ELEMENT MediaFile (#PCDATA)>
+        <!ELEMENT URL (#PCDATA)>
+        ]>
+<VAST version="2.0" >
+    <Ad id="betlive-limitless">
+        <InLine>
+            <AdSystem>2.0</AdSystem>
+            <AdTitle>Betlive Limitless</AdTitle>
+            <Impression id="limitless">
+                <![CDATA[http://gdege.hit.gemius.pl/hitredir/id=zIs1jzQUOcddwV11zv7wF8QKjwi_JdssHCni9eGrf1b.x7/fastid=lxmpxuefgrkzzphupdyptkseruot/stparam=tdfjhvsolt/nc=0/gdpr=0/gdpr_consent=/url=]]>
+            </Impression>
+            <Creatives>
+                <Creative sequence="1" id="2" >
+                    <Linear skipoffset="00:00:06">
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://gdege.hit.gemius.pl/lshitredir/id=zIs1jzQUOcddwV11zv7wF8QKjwi_JdssHCni9eGrf1b.x7/fastid=mqjauhqjqcffrccrlwdxfslxpulu/stparam=nfdgopgiln/nc=0/gdpr=0/gdpr_consent=/url=https://promotion.betlive.com/public/ka/limitless2021/?utm_source=Goal.ge&utm_medium=preroll&utm_campaign=limitless2021]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <Duration>00:01:00</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+                                <![CDATA[https://storage.goal.ge/videos/videogallery/32/1QNcPxVGIvQqHIZ5dYV6fe3rr9EcI28jronEvTze.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
